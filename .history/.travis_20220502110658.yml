@@ -1,0 +1,7 @@
+language: generic 
+sudo: required
+services:
+    - docker
+# command that will be executed before our tests are run or deploy our project
+before_install: 
+    - docker build -t mariozenuni/docker-react -f Dockerfile.dev .
