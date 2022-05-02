@@ -1,5 +1,5 @@
 #we required sudo tto install the docker CLI
-language: generic
+language: ruby
 sudo: required
 services:
     - docker
